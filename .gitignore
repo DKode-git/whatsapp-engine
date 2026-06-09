@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Linting
+.ruff_cache/
+
+# Logs
+*.log
+
+# SQLite
+*.db
+*.sqlite3
+
+# Alembic
+migrations/versions/*.pyc
+
+# Docker
+docker-data/
+
+# Node (if frontend assets are added later)
+node_modules/
+
+# Temporary Files
+tmp/
+temp/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Jupyter
+.ipynb_checkpoints/
